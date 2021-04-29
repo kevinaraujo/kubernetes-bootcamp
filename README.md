@@ -3,9 +3,9 @@
 Commands:
 
 
-`kubectl apply -f .\myreplicaset.yaml` => create replicaset from myreplicaset.yaml
+`kubectl apply -f .\mydeployment.yaml` => create deployment from mydeployment.yaml
 
-`kubectl describe replicaset myreplicaset` => show with details the replicaset created
+`kubectl get deployment` => show list deployments created
 
 `kubectl get replicasets` => show without detailed the replicasets created
 
