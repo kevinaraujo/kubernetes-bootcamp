@@ -3,6 +3,7 @@ kind: ReplicaSet
 metadata:
   name: myreplicaset
 spec:
+  replicas: 10
   selector:
     matchLabels:
       app: nginx
@@ -13,6 +14,6 @@ spec:
     spec:
       containers:
         - name: site
-          image: kubedevop/nginx-color:blue
+          image: kubedevop/nginx-color:green
           ports:
             - containerPort: 80

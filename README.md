@@ -1,4 +1,4 @@
-## Replicaset with 1 pod
+## Replicaset with 10 pod
 
 Commands:
 
@@ -8,3 +8,6 @@ Commands:
 `kubectl describe replicaset myreplicaset` => show with details the replicaset created
 
 `kubectl get replicasets` => show without detailed the replicasets created
+
+`kubectl scale replicaset myreplicaset --replicas 20
+` => Scale for more or less pods
