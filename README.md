@@ -1,4 +1,4 @@
-#Replicaset with 1 pod
+## Replicaset with 1 pod
 
 Commands:
 
